@@ -2,11 +2,14 @@
 
 ## Introduction
 
+**k-florek/workshop** is a simple bioinformatics pipeline that uses sample data to demonstrate how Nextflow works. The pipeline simply takes some RAW illumina sequencing data and performs a simple quality control check.
+
+1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
+2. Present QC for raw reads ([`MultiQC`](http://multiqc.info/))
+
 This document describes the output produced by the pipeline. Most of the plots are taken from the MultiQC report, which summarises results at the end of the pipeline.
 
 The directories listed below will be created in the results directory after the pipeline has finished. All paths are relative to the top-level results directory.
-
-<!-- TODO nf-core: Write this documentation describing your workflow's output -->
 
 ## Pipeline overview
 

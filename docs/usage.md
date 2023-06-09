@@ -4,7 +4,11 @@
 
 ## Introduction
 
-<!-- TODO nf-core: Add documentation about anything specific to running your pipeline. For general topics, please point to (and add to) the main nf-core website. -->
+
+**k-florek/workshop** is a simple bioinformatics pipeline that uses sample data to demonstrate how Nextflow works. The pipeline simply takes some RAW illumina sequencing data and performs a simple quality control check.
+
+1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
+2. Present QC for raw reads ([`MultiQC`](http://multiqc.info/))
 
 ## Samplesheet input
 

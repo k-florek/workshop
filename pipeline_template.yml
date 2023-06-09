@@ -1,0 +1,4 @@
+prefix: k-florek
+skip:
+- igenomes
+- nf_core_configs
